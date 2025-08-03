@@ -206,7 +206,7 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
     <Image
-  src="/Group 196.png"
+  src="/Group_196.png"
   alt="Discovery & Understanding"
   width={580}
   height={480}
@@ -233,7 +233,7 @@ export default function About() {
   
   <div className="md:order-2 flex justify-center">
  <Image
-  src="/illustration - 2.png"
+  src="/illustration_2.png"
   alt="Strategic Planning"
   width={472}
   height={480}
@@ -261,7 +261,7 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
     <Image
-      src="/illustration - 3.png"
+      src="/illustration_3.png"
       alt="Development & Design"
    width={580}
   height={480}
@@ -319,7 +319,7 @@ export default function About() {
     <div className="max-w-[1300px] mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* Image Section */}
   <div className="flex justify-center">
- <Image src="/illustration - 5.png" alt="Ongoing Support"
+ <Image src="/illustration_5.png" alt="Ongoing Support"
       
         width={580}
   height={480}
