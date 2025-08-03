@@ -68,7 +68,7 @@ const Navbar = () => {
        <nav className="w-[70vw] mx-auto mt-6 px-4 py-3 border border-gray-300 bg-white shadow-md rounded-xl flex items-center justify-between z-50 relative">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
-          <img src="/logo.webp" alt="Ranav Technologies Logo" width={150} height={50} className="h-auto max-h-12" />
+        <Image src="/logo.webp" alt="Ranav Technologies Logo" width={150} height={50} className="h-auto max-h-12" />
         </Link>
 
         {/* Desktop Menu */}
@@ -132,7 +132,7 @@ const Navbar = () => {
         {/* Sidebar Header */}
         <div className="flex justify-between items-center px-4 py-4 border-b border-gray-200">
           <Link href="/" onClick={closeMobileMenu}>
-            <img src="/logo.webp" alt="Ranav Technologies Logo" width={130} className="h-auto max-h-10" />
+          <Image src="/logo.webp" alt="Ranav Technologies Logo" width={130} className="h-auto max-h-10" />
           </Link>
           <button
             onClick={closeMobileMenu}
