@@ -67,9 +67,10 @@ export default function Blog2() {
   </h1>
 
   {/* Introduction */}
-  <p className="text-[24px] leading-[42px] text-[#212121]">
-    In today's fast-evolving digital landscape, startups must embrace technology to remain competitive and scale efficiently. Digital transformation is not just a trend but a necessity for new businesses looking to streamline operations, enhance customer experiences, and optimize productivity. However, for startups with limited resources and technical expertise, knowing where to begin can be overwhelming. This guide will walk you through the essential steps to kickstart your digital transformation journey.
-  </p>
+ <p className="text-[24px] leading-[42px] text-[#212121]">
+  In today&apos;s fast-evolving digital landscape, startups must embrace technology to remain competitive and scale efficiently. Digital transformation is not just a trend but a necessity for new businesses looking to streamline operations, enhance customer experiences, and optimize productivity. However, for startups with limited resources and technical expertise, knowing where to begin can be overwhelming. This guide will walk you through the essential steps to kickstart your digital transformation journey.
+</p>
+
 
   {/* Section: Understanding Digital Transformation */}
   <div className="space-y-6">

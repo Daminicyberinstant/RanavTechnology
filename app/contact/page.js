@@ -131,7 +131,7 @@ const faqs = [
   >
     <div className="w-full max-w-[1586px] px-4 mx-auto text-center">
   <h2 className="font-archivo font-semibold text-[32px] md:text-[50px] lg:text-[70.18px] leading-[88px] tracking-[-0.02em] text-white">
-  Let's Connect
+  Let&apos;s Connect
   </h2>
   <p className="font-inter font-normal text-[18px] md:text-[24px] lg:text-[29.24px] leading-[44px] text-white max-w-[1126px] mx-auto mt-4">
      Ready to discuss your project or need more information?
