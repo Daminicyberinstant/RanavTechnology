@@ -6,6 +6,13 @@ import futureReadyIcon from "../../public/future-ready-icon.png";
 import tailoredIcon from "../../public/tailored-icon.png";
 import Image from "next/image";
 
+import Group_196 from "../../public/Group_196.png"
+
+import illustration_2 from "../../public/Illustration_2.png";
+
+import character from "../../public/Character.png"
+import illustration_5 from "../../public/Illustration_5.png";
+import illustration_3 from "../../public/Illustration_3.png"
 const workWithUsData = [
   {
     title: "Tailored Solutions",
@@ -206,7 +213,7 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
     <Image
-  src="/Group_196.png"
+  src={Group_196}
   alt="Discovery & Understanding"
   width={580}
   height={480}
@@ -233,7 +240,7 @@ export default function About() {
   
   <div className="md:order-2 flex justify-center">
  <Image
-  src="/illustration_2.png"
+  src={illustration_2}
   alt="Strategic Planning"
   width={472}
   height={480}
@@ -261,7 +268,7 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
     <Image
-      src="/illustration_3.png"
+      src={illustration_3}
       alt="Development & Design"
    width={580}
   height={480}
@@ -290,7 +297,7 @@ export default function About() {
 <div className="grid md:grid-cols-2 items-center gap-12 max-w-[1300px] mx-auto px-6 py-16">
   {/* Image on right side */}
   <div className="md:order-2 flex justify-center">
-   <Image src="/character.png" alt="Seamless Execution" 
+   <Image src={character} alt="Seamless Execution" 
       
       width={472}
   height={480}
@@ -319,7 +326,7 @@ export default function About() {
     <div className="max-w-[1300px] mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* Image Section */}
   <div className="flex justify-center">
- <Image src="/illustration_5.png" alt="Ongoing Support"
+ <Image src={illustration_5} alt="Ongoing Support"
       
         width={580}
   height={480}
