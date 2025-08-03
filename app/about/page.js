@@ -206,10 +206,13 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
     <Image
-      src="/Group 196.png"
-      alt="Discovery & Understanding"
-      className="w-[580px] h-[480px] object-contain"
-    />
+  src="/Group 196.png"
+  alt="Discovery & Understanding"
+  width={580}
+  height={480}
+  className="object-contain"
+/>
+
   </div>
 
   {/* Text Section */}
@@ -232,7 +235,10 @@ export default function About() {
     <Image
       src="/illustration - 2.png"
       alt="Strategic Planning"
-      className="w-[472px] h-[480px] object-contain"
+      
+        width={472}
+  height={480}
+  className="object-contain"
     />
   </div>
 
@@ -258,8 +264,12 @@ export default function About() {
     <Image
       src="/illustration - 3.png"
       alt="Development & Design"
-      className="w-[580px] h-[480px] object-contain"
+   width={580}
+  height={480}
+  className="object-contain"
     />
+ 
+
   </div>
 
   {/* Text Section */}
@@ -282,8 +292,12 @@ export default function About() {
   {/* Image on right side */}
   <div className="md:order-2 flex justify-center">
    <Image src="/character.png" alt="Seamless Execution" 
-      className="w-[472px] h-[480px] object-contain"
+      
+      width={472}
+  height={480}
+  className="object-contain"
     />
+
   </div>
 
   {/* Text on left side */}
@@ -307,7 +321,10 @@ export default function About() {
   {/* Image Section */}
   <div className="flex justify-center">
  <Image src="/illustration - 5.png" alt="Ongoing Support"
-      className="w-[580px] h-[480px] object-contain"
+      
+        width={580}
+  height={480}
+  className="object-contain"
     />
   </div>
 

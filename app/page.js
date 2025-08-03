@@ -555,21 +555,22 @@ Our Services
           Our Projects
           </h2>
         <p className="text-lg md:text-xl text-black font-karla py-2 md:py-5 font-normal">
-            Lorem Ipsum is simply dummy text of the printing and typesetting 
-            industry. Lorem Ipsum has been the industries standard dummy text ever.
-             Lorem Ipsum is simply
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever. Lorem Ipsum is simply
           </p>
         </div>
 
   <div className="flex flex-col md:flex-row items-stretch gap-10 md:gap-14 mb-12">
   {/* Image Container */}
-  <div className="w-full md:w-[35%] h-[400px] md:h-[452px] bg-[#e9f1f1] rounded-[30px] p-6 flex items-center justify-center overflow-hidden">
-    <Image
-      src="/Rectangle 73.png"
-      alt="SyncTime Main"
-      className="h-full w-auto object-contain"
-    />
-  </div>
+<div className="relative w-full md:w-[35%] h-[400px] md:h-[452px] bg-[#e9f1f1] rounded-[30px] p-6 flex items-center justify-center overflow-hidden">
+  <Image
+    src="/Rectangle 73.png"
+    alt="SyncTime Main"
+    width={300} // Choose a reasonable width based on layout
+    height={400}
+    className="h-full w-auto object-contain"
+  />
+</div>
+
 
   {/* Text Content */}
   <div className="w-full md:w-[65%] md:h-[452px] bg-white rounded-2xl shadow p-8 flex flex-col justify-center">
@@ -609,11 +610,13 @@ Our Services
                 
        <div className="w-full md:w-[35%] h-[400px] md:h-[452px] bg-[#e9f1f1] rounded-[30px] p-6 flex items-center justify-center overflow-hidden">
     <Image
-      className="h-full w-auto object-contain"
+     
     
               src="/Group 100.png"
               alt="Ultrasound MD"
-    
+     width={300} 
+    height={400}
+    className="h-full w-auto object-contain"
             />
           </div>
         </div>

@@ -72,6 +72,8 @@ export default function CustomSoftwareSolutionsPage() {
     src="/right-technology-stack-feature.jpg"
     alt="Technology stack explained"
     className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+     width={1200}
+  height={500}
   />
 
   {/* Section 2 */}
@@ -93,6 +95,8 @@ export default function CustomSoftwareSolutionsPage() {
       src="/unlocking-business-feature1.jpg"
       alt="Software solutions illustration"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"
+       width={1200}
+  height={500}
     />
   </div>
 

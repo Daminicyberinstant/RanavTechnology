@@ -85,6 +85,8 @@ export default function BlogPage() {
           src="/future-of-AI-feature2.jpg"
           alt="Enhanced Efficiency"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+           width={1200}
+  height={500}
         />
       </div>
 
@@ -98,6 +100,8 @@ export default function BlogPage() {
           src="/future-of-AI-feature3.jpg"
           alt="Data Insights"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+           width={1200}
+  height={500}
         />
       </div>
 
@@ -107,11 +111,13 @@ export default function BlogPage() {
        <p className="text-[24px] leading-[42px] text-[#212121]">
          AI is revolutionizing the customer experience by making interactions more personalized and meaningful. Through AI-powered recommendation engines, businesses can tailor products, content, and services to individual preferences. This is particularly visible in e-commerce, streaming services, and online advertising, where personalization increases engagement, loyalty, and conversion rates. Chatbots and virtual assistants are also enhancing customer service by providing instant support, creating a seamless and responsive experience.
         </p>
-        <Image
-          src="/future-of-AI-feature4.jpg"
-          alt="Personalized Experience"
-          className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
-        />
+    <Image
+  src="/future-of-AI-feature2.jpg"
+  alt="Enhanced Efficiency"
+  width={1200}
+  height={500}
+  className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+/>
       </div>
 
       {/* Innovation */}
@@ -124,6 +130,8 @@ export default function BlogPage() {
           src="/future-of-AI-feature5.jpg"
           alt="Product Innovation"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+           width={1200}
+  height={500}
         />
       </div>
 
@@ -137,6 +145,8 @@ export default function BlogPage() {
           src="/future-of-AI-feature6.jpg"
           alt="Risk Analysis"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+           width={1200}
+  height={500}
         />
       </div>
 
@@ -179,6 +189,8 @@ Integrating AI into existing systems and workflows is often a complex and challe
           src="/future-of-AI-feature7.jpg"
           alt="Integration Challenges"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+           width={1200}
+  height={500}
         />
       </div>
 

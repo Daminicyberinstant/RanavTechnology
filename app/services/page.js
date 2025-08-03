@@ -242,6 +242,8 @@ export default function ServicesPage() {
                           src={item.imageUrl}
                           alt="about us background"
                           className="object-cover rounded-[30px]"
+                            width={112} // 28 × 4 = 112px (match w-28)
+    height={112}
                         />
                       </div>
                     </div>

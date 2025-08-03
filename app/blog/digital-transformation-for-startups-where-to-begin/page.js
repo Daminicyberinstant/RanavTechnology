@@ -84,6 +84,8 @@ export default function Blog2() {
       src="/digital-transformation-feature2.jpg"
       alt="Software solutions illustration"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"
+       width={1200}
+  height={500}
     />
   </div>
 
@@ -144,7 +146,7 @@ export default function Blog2() {
   </div>
 
   {/* Step 6 */}
-  <div className="space-y-4">
+  {/* <div className="space-y-4">
     <h2 className="text-2xl text-black font-semibold">
       Step 6: Build a Digital Culture
     </h2>
@@ -152,12 +154,12 @@ export default function Blog2() {
   Digital transformation is not just about technology; it is about mindset...
 </p>
 
-  </div>
+  </div> */}
 
   {/* Step 7 */}
   <div className="space-y-4">
     <h2 className="text-2xl text-black font-semibold">
-      Step 7: Scale with Digital Marketing
+      Step 6: Scale with Digital Marketing
     </h2>
     <p className="text-[18px] text-[#212121] leading-[32px]">
       An effective digital presence is crucial for startup growth. Utilizing SEO, social media marketing, and email campaigns can help startups reach their target audience, improve brand visibility, and drive conversions.
@@ -167,6 +169,8 @@ export default function Blog2() {
       src="/digital-transformation-feature3.webp"
       alt="Digital marketing growth"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"
+       width={1200}
+  height={500}
     />
   </div>
 </section>

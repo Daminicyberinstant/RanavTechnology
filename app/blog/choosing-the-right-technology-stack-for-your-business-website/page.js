@@ -75,6 +75,8 @@ export default function ChoosingTechStackPage() {
     src="/right-technology-stack-feature.jpg"
     alt="Technology stack explained"
     className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
+     width={1200}
+  height={500}
   />
 
   {/* What is a Technology Stack */}
@@ -107,6 +109,8 @@ export default function ChoosingTechStackPage() {
     src="/right-technology-stack-feature1.jpg"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
+     width={1200}
+  height={500}
   />
 
   {/* Factors to Consider */}
@@ -154,6 +158,8 @@ export default function ChoosingTechStackPage() {
     src="/right-technology-stack-feature2.jpg"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
+     width={1200}
+  height={500}
   />
 
   {/* Popular Stacks */}
@@ -200,6 +206,8 @@ export default function ChoosingTechStackPage() {
     src="/right-technology-stack-feature3.webp"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
+     width={1200}
+  height={500}
   />
 
 </section>

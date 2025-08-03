@@ -146,6 +146,8 @@ export default function ProjectDetail({ params }) {
       src={project.para1Img}
       alt="project image"
       className="w-full h-full object-cover"
+         width={1200} // example value
+    height={600} // example value
     />
   </div>
 </div>
@@ -172,6 +174,8 @@ export default function ProjectDetail({ params }) {
       src={project.sec2Img1} // or project.sec2Img2
       alt="Project 1"
       className="w-full h-full object-contain"
+         width={1200} // example value
+    height={600} // example value
     />
   </div>
 
@@ -190,6 +194,8 @@ export default function ProjectDetail({ params }) {
  <Image
     src={project.sec2Img2} alt="Project 2"
       className="w-full h-full object-contain"
+         width={1200} // example value
+    height={600} // example value
     />
   </div>
 </div>
@@ -206,17 +212,21 @@ export default function ProjectDetail({ params }) {
 </section>
 
 
-  <section className="bg-white px-10 py-16 max-w-[1600px] mx-auto">
-  {/* Section Title */}
+   {/* <section className="bg-white px-10 py-16 max-w-[1600px] mx-auto">
+  
    <h2 className="font-archivo font-normal text-[96px] leading-[104px] text-[#212121]">Explore more projects</h2>
 
-  {/* Cards Grid */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-    {/* Project Card 1 */}
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-[30px]">
+  
     <div className="bg-white rounded-2xl shadow-md overflow-hidden p-4">
       <div className="w-full h-[200px] bg-gray-300 flex items-center justify-center rounded-xl mb-4">
 
-        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
+        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain"
+        
+           width={1200}
+    height={600} 
+        /> 
       </div>
       <div className="flex justify-between items-center mb-2">
         <h3 className="text-lg font-semibold">Project name</h3>
@@ -229,11 +239,15 @@ export default function ProjectDetail({ params }) {
       </p>
     </div>
 
-    {/* Project Card 2 */}
+
     <div className="bg-white rounded-2xl shadow-md overflow-hidden p-4">
       <div className="w-full h-[200px] bg-gray-300 flex items-center justify-center rounded-xl mb-4">
       
-        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
+        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" 
+        
+           width={1200} // example value
+    height={600} // example value
+        /> 
       </div>
       <div className="flex justify-between items-center mb-2">
         <h3 className="text-lg font-semibold">Project name</h3>
@@ -246,7 +260,8 @@ export default function ProjectDetail({ params }) {
       </p>
     </div>
   </div>
-</section>
+</section>  */}
+
 
 
     </main>
