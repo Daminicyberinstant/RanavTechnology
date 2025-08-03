@@ -1,4 +1,5 @@
 "use client";
+
 import BlogsSection from "@/components/BlogsSection";
 export default function ChoosingTechStackPage() {
   return (
