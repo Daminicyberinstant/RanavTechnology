@@ -149,7 +149,7 @@ export default function Blog2() {
       Step 6: Build a Digital Culture
     </h2>
     <p className="text-[18px] text-[#212121] leading-[32px]">
-      Digital transformation is not just about technology; it&apos;s about mindset. Encouraging employees to embrace digital tools, upskilling teams, and fostering a culture of innovation will ensure long-term success.
+      Digital transformation is not just about technology; it is about mindset. Encouraging employees to embrace digital tools, upskilling teams, and fostering a culture of innovation will ensure long-term success.
     </p>
   </div>
 

@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import BlogsSection from "@/components/BlogsSection";
 export default function ChoosingTechStackPage() {
   return (

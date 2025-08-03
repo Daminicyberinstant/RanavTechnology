@@ -555,7 +555,7 @@ Our Services
           Our Projects
           </h2>
         <p className="text-lg md:text-xl text-black font-karla py-2 md:py-5 font-normal">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever. Lorem Ipsum is simply
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever. Lorem Ipsum is simply
           </p>
         </div>
 

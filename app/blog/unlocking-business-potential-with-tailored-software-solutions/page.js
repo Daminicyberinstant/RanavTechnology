@@ -1,5 +1,6 @@
 "use client";
 import BlogsSection from "@/components/BlogsSection";
+import Image from "next/image";
 export default function CustomSoftwareSolutionsPage() {
   return (
     <main className="min-h-screen bg-white">
