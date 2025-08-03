@@ -228,18 +228,17 @@ export default function About() {
   </div>
 </div>
 
-{/* Step 2 */}
+
 <div className="grid md:grid-cols-2 items-center gap-12 max-w-[1300px] mx-auto px-6 py-16">
-  {/* Image on right side */}
+  
   <div className="md:order-2 flex justify-center">
-    <Image
-      src="/illustration - 2.png"
-      alt="Strategic Planning"
-      
-        width={472}
+ <Image
+  src="/illustration - 2.png"
+  alt="Strategic Planning"
+  width={472}
   height={480}
   className="object-contain"
-    />
+/>
   </div>
 
   {/* Text on left side */}
