@@ -148,9 +148,10 @@ export default function Blog2() {
     <h2 className="text-2xl text-black font-semibold">
       Step 6: Build a Digital Culture
     </h2>
-    <p className="text-[18px] text-[#212121] leading-[32px]">
-      Digital transformation is not just about technology; it is about mindset. Encouraging employees to embrace digital tools, upskilling teams, and fostering a culture of innovation will ensure long-term success.
-    </p>
+  <p className="text-[18px] text-[#212121] leading-[32px]">
+  Digital transformation is not just about technology; it is about mindset...
+</p>
+
   </div>
 
   {/* Step 7 */}
