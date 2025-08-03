@@ -80,7 +80,7 @@ export default function Blog2() {
     <p className="text-[18px] text-[#212121] leading-[32px]">
       Digital transformation refers to the integration of digital technologies into all aspects of a business, fundamentally changing how it operates and delivers value to customers. It involves leveraging tools like cloud computing, artificial intelligence, automation, and data analytics to improve efficiency and innovation.
     </p>
-    <img
+    <Image
       src="/digital-transformation-feature2.jpg"
       alt="Software solutions illustration"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"
@@ -162,7 +162,7 @@ export default function Blog2() {
       An effective digital presence is crucial for startup growth. Utilizing SEO, social media marketing, and email campaigns can help startups reach their target audience, improve brand visibility, and drive conversions.
     </p>
 
-    <img
+    <Image
       src="/digital-transformation-feature3.webp"
       alt="Digital marketing growth"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"

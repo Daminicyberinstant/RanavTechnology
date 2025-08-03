@@ -67,7 +67,7 @@ export default function CustomSoftwareSolutionsPage() {
   </p>
 
   {/* Feature Image */}
-  <img
+<Image
     src="/right-technology-stack-feature.jpg"
     alt="Technology stack explained"
     className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -88,7 +88,7 @@ export default function CustomSoftwareSolutionsPage() {
       Moreover, while the initial investment in custom software development may seem substantial, it leads to long-term cost savings by reducing reliance on multiple third-party applications and minimizing operational inefficiencies.
     </p>
 
-    <img
+<Image
       src="/unlocking-business-feature1.jpg"
       alt="Software solutions illustration"
       className="w-full h-auto max-h-[500px] object-cover rounded-[40px] shadow"

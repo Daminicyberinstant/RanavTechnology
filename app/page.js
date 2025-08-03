@@ -562,7 +562,7 @@ Our Services
   <div className="flex flex-col md:flex-row items-stretch gap-10 md:gap-14 mb-12">
   {/* Image Container */}
   <div className="w-full md:w-[35%] h-[400px] md:h-[452px] bg-[#e9f1f1] rounded-[30px] p-6 flex items-center justify-center overflow-hidden">
-    <img
+    <Image
       src="/Rectangle 73.png"
       alt="SyncTime Main"
       className="h-full w-auto object-contain"
@@ -606,7 +606,7 @@ Our Services
           </div>
                 
        <div className="w-full md:w-[35%] h-[400px] md:h-[452px] bg-[#e9f1f1] rounded-[30px] p-6 flex items-center justify-center overflow-hidden">
-    <img
+    <Image
       className="h-full w-auto object-contain"
     
               src="/Group 100.png"

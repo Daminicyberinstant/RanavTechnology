@@ -294,7 +294,7 @@ export default function JobApplicationForm({ jobTitle, onClose }) {
             <div>
              
               <div className=" flex flex-col items-center border-2 border-sky-300 bg-sky-100 rounded-md p-6 text-center cursor-pointer">
-                <img width={30} height={30} src="/vector-1.png" alt="bg-cv" />
+                <Image width={30} height={30} src="/vector-1.png" alt="bg-cv" />
                 <input type="file" 
                  accept=".pdf,.doc,.docx"
           onChange={formik.handleChange}
@@ -312,7 +312,7 @@ export default function JobApplicationForm({ jobTitle, onClose }) {
             <div>
             
               <div className=" flex flex-col items-center border-2  border-orange-300 bg-orange-200 rounded-md p-6 text-center cursor-pointer">
-                <img width={30} height={30} src="/vector-2.png" alt="bg-cv" />
+                <Image width={30} height={30} src="/vector-2.png" alt="bg-cv" />
                 <input type="file"
                 accept=".pdf,.doc,.docx"
          onChange={formik.handleChange}

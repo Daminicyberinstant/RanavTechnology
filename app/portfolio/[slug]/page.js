@@ -142,7 +142,7 @@ export default function ProjectDetail({ params }) {
 >
   {/* Full-width Image */}
   <div className="w-full h-[600px] rounded-xl overflow-hidden mb-4">
-    <img
+ <Image
       src={project.para1Img}
       alt="project image"
       className="w-full h-full object-cover"
@@ -168,7 +168,7 @@ export default function ProjectDetail({ params }) {
   }}
 >
   <div className="w-full h-[100%] rounded-xl overflow-hidden flex items-center justify-center">
-    <img
+    <Image
       src={project.sec2Img1} // or project.sec2Img2
       alt="Project 1"
       className="w-full h-full object-contain"
@@ -187,7 +187,7 @@ export default function ProjectDetail({ params }) {
   }}
 >
   <div className="w-full h-[100%] rounded-xl overflow-hidden flex items-center justify-center">
-    <img
+ <Image
     src={project.sec2Img2} alt="Project 2"
       className="w-full h-full object-contain"
     />
@@ -216,7 +216,7 @@ export default function ProjectDetail({ params }) {
     <div className="bg-white rounded-2xl shadow-md overflow-hidden p-4">
       <div className="w-full h-[200px] bg-gray-300 flex items-center justify-center rounded-xl mb-4">
 
-        <img src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
+        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
       </div>
       <div className="flex justify-between items-center mb-2">
         <h3 className="text-lg font-semibold">Project name</h3>
@@ -233,7 +233,7 @@ export default function ProjectDetail({ params }) {
     <div className="bg-white rounded-2xl shadow-md overflow-hidden p-4">
       <div className="w-full h-[200px] bg-gray-300 flex items-center justify-center rounded-xl mb-4">
       
-         <img src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
+        <Image src={project.sec3Img} alt="Project 1" className="w-full h-auto rounded-xl object-contain" /> 
       </div>
       <div className="flex justify-between items-center mb-2">
         <h3 className="text-lg font-semibold">Project name</h3>

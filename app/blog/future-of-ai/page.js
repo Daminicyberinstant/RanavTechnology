@@ -80,7 +80,7 @@ export default function BlogPage() {
         <p className="text-[24px] leading-[42px] text-[#212121]">
           AI is streamlining repetitive and time-consuming tasks, enabling businesses to operate more efficiently. In areas like manufacturing, supply chain management, and customer service, AI-driven automation is reducing the need for manual labor in processes such as inventory tracking, scheduling, and responding to routine customer inquiries. This shift allows employees to focus on more strategic, creative, or complex tasks, boosting overall productivity.
         </p>
-        <img
+        <Image
           src="/future-of-AI-feature2.jpg"
           alt="Enhanced Efficiency"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -93,7 +93,7 @@ export default function BlogPage() {
         <p className="text-[24px] leading-[42px] text-[#212121]">
           With AI, businesses now have the power to process vast amounts of data in real time, extracting insights that were previously hidden or difficult to uncover. Machine learning algorithms analyze trends and patterns, enabling organizations to make informed decisions faster. For example, AI is used in finance to predict stock prices and detect fraudulent activity, while in retail, it assists in demand forecasting, helping businesses stock the right products at the right time.
         </p>
-        <img
+        <Image
           src="/future-of-AI-feature3.jpg"
           alt="Data Insights"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -106,7 +106,7 @@ export default function BlogPage() {
        <p className="text-[24px] leading-[42px] text-[#212121]">
          AI is revolutionizing the customer experience by making interactions more personalized and meaningful. Through AI-powered recommendation engines, businesses can tailor products, content, and services to individual preferences. This is particularly visible in e-commerce, streaming services, and online advertising, where personalization increases engagement, loyalty, and conversion rates. Chatbots and virtual assistants are also enhancing customer service by providing instant support, creating a seamless and responsive experience.
         </p>
-        <img
+        <Image
           src="/future-of-AI-feature4.jpg"
           alt="Personalized Experience"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -119,7 +119,7 @@ export default function BlogPage() {
         <p className="text-[24px] leading-[42px] text-[#212121]">
         AI enables businesses to innovate more effectively by speeding up the research and development process. Predictive analytics and simulations can optimize design and testing, allowing for faster iterations and product improvements. In industries like pharmaceuticals, AI is accelerating drug discovery, while in engineering, it’s helping to design more efficient products with fewer resources, opening doors for cost-effective solutions.
         </p>
-        <img
+       <Image
           src="/future-of-AI-feature5.jpg"
           alt="Product Innovation"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -132,7 +132,7 @@ export default function BlogPage() {
         <p className="text-[24px] leading-[42px] text-[#212121]">
            Risk management is a critical aspect of any business, and AI is making it more precise. Algorithms can analyze financial transactions, market data, and other risk indicators to detect anomalies or potential threats. In banking and insurance, AI is employed to monitor transactions for fraud, assess creditworthiness, and calculate risk levels more accurately, giving businesses a proactive approach to mitigating losses and safeguarding assets.
         </p>
-        <img
+     <Image
           src="/future-of-AI-feature6.jpg"
           alt="Risk Analysis"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -174,7 +174,7 @@ Implementing AI technologies can be an expensive undertaking, particularly for s
    <p className="text-[24px] leading-[42px] text-[#212121]">
 Integrating AI into existing systems and workflows is often a complex and challenging process, as legacy systems may not be compatible with newer AI-driven technologies. Many organizations face structural challenges in aligning AI solutions with their current infrastructure, which can require significant reconfiguration and adaptation. For instance, legacy data systems and storage solutions might not be equipped to handle the vast amounts of data necessary for effective AI training, creating data silos that inhibit the free flow of information across the organization. Overcoming these technical limitations demands not only robust technological updates but also strategic change management to ensure a smooth transition. Moreover, AI integration often requires careful consideration of workflows and business processes, as AI solutions can disrupt traditional roles and responsibilities. Companies need to work on establishing clear communication channels, fostering collaboration across departments, and ensuring that employees are adequately trained to work alongside AI technologies. Failing to manage these integrations effectively can lead to inefficiencies, decreased productivity, and even project abandonment.
         </p>
-        <img
+     <Image
           src="/future-of-AI-feature7.jpg"
           alt="Integration Challenges"
           className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"

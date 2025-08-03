@@ -71,7 +71,7 @@ export default function ChoosingTechStackPage() {
   </p>
 
   {/* Feature Image */}
-  <img
+  <Image
     src="/right-technology-stack-feature.jpg"
     alt="Technology stack explained"
     className="w-full h-auto max-h-[500px] rounded-[40px] object-cover shadow"
@@ -103,7 +103,7 @@ export default function ChoosingTechStackPage() {
   </div>
 
   {/* Supporting Image */}
-  <img
+  <Image
     src="/right-technology-stack-feature1.jpg"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
@@ -150,7 +150,7 @@ export default function ChoosingTechStackPage() {
   </div>
 
   {/* Image */}
-  <img
+  <Image
     src="/right-technology-stack-feature2.jpg"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"
@@ -196,7 +196,7 @@ export default function ChoosingTechStackPage() {
   </div>
 
   {/* Final Image */}
-  <img
+  <Image
     src="/right-technology-stack-feature3.webp"
     alt="Software solutions illustration"
     className="w-full h-auto max-h-[500px] object-cover rounded-lg shadow"

@@ -205,7 +205,7 @@ export default function About() {
     <div className="max-w-[1300px] mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* Image Section */}
   <div className="flex justify-center">
-    <img
+    <Image
       src="/Group 196.png"
       alt="Discovery & Understanding"
       className="w-[580px] h-[480px] object-contain"
@@ -229,7 +229,7 @@ export default function About() {
 <div className="grid md:grid-cols-2 items-center gap-12 max-w-[1300px] mx-auto px-6 py-16">
   {/* Image on right side */}
   <div className="md:order-2 flex justify-center">
-    <img
+    <Image
       src="/illustration - 2.png"
       alt="Strategic Planning"
       className="w-[472px] h-[480px] object-contain"
@@ -255,7 +255,7 @@ export default function About() {
     <div className="max-w-[1300px] mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* Image Section */}
   <div className="flex justify-center">
-    <img
+    <Image
       src="/illustration - 3.png"
       alt="Development & Design"
       className="w-[580px] h-[480px] object-contain"
@@ -281,7 +281,7 @@ export default function About() {
 <div className="grid md:grid-cols-2 items-center gap-12 max-w-[1300px] mx-auto px-6 py-16">
   {/* Image on right side */}
   <div className="md:order-2 flex justify-center">
-   <img src="/character.png" alt="Seamless Execution" 
+   <Image src="/character.png" alt="Seamless Execution" 
       className="w-[472px] h-[480px] object-contain"
     />
   </div>
@@ -306,7 +306,7 @@ export default function About() {
     <div className="max-w-[1300px] mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   {/* Image Section */}
   <div className="flex justify-center">
- <img src="/illustration - 5.png" alt="Ongoing Support"
+ <Image src="/illustration - 5.png" alt="Ongoing Support"
       className="w-[580px] h-[480px] object-contain"
     />
   </div>

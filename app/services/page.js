@@ -238,7 +238,7 @@ export default function ServicesPage() {
                             : "border-orange-500"
                         } rounded-full`}
                       >
-                        <img
+                        <Image
                           src={item.imageUrl}
                           alt="about us background"
                           className="object-cover rounded-[30px]"
