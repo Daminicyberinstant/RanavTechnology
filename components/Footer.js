@@ -133,7 +133,7 @@ const Footer = () => {
                 <p>© 2024 RANAV TECHNOLOGIES</p>
                 <div className="flex gap-6">
                   <Link href="/privacy-policy">Privacy Policy</Link>
-                  <Link href="/terms-and-conditions">Terms & Conditions</Link>
+                  <Link href="/terms-&-conditions">Terms & Conditions</Link>
                 </div>
               </div>
             </div>
