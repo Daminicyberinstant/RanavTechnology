@@ -312,121 +312,79 @@ const settingss = {
 
 
 
+<section
+  id="about-section"
+  className="mx-auto container relative mb-8 sm:mb-28 px-4 md:px-20 py-4 md:pt-24 pb-10 rounded-2xl scroll-mt-20"
+  style={{
+    background: "linear-gradient(180deg, #E7EAEB 0%, #FFFFFF 100%)",
+  }}
+>
+  <div className="flex justify-between flex-col md:flex-row pb-5 md:pb-10 items-start md:items-end gap-4">
+    <h1 className="text-3xl sm:text-4xl md:text-6xl text-ranav-dark-teal font-bold">
+      About us
+    </h1>
 
-   <section
-      id="about-section"
-      className="mx-auto container  relative mb-8 sm:mb-28 px-4 md:px-20 py-4 md:pt-24 pb-10 rounded-2xl scroll-mt-20"
-      style={{
-        background: "linear-gradient(180deg, #E7EAEB 0%, #FFFFFF 100%)",
-      }}
-    >
-      <div className="flex justify-between flex-col md:flex-row pb-5 md:pb-10 items-start md:items-end gap-4">
-        <h1 className="text-4xl md:text-6xl text-ranav-dark-teal font-bold">About us</h1>
-        
-        <Link href="/about">
-          <button className="hover:text-white hover:bg-gray-800 px-4 py-2 border border-ranav-dark-teal rounded-full text-lg md:text-1xl font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-            READ MORE
-          </button>
+    <Link href="/about">
+      <button className="hover:text-white hover:bg-gray-800 px-4 py-2 border border-ranav-dark-teal rounded-full text-base md:text-1xl font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+        READ MORE
+      </button>
+    </Link>
+  </div>
 
-        </Link>
+  <div className="flex flex-col md:flex-row gap-10 justify-between z-10 relative">
+    {/* Image Section */}
+    <div className="w-full md:w-3/5 relative">
+      <Image
+        src="/about-us-image-2.webp"
+        alt="about us"
+        width={600}
+        height={400}
+        className="w-full h-full rounded-[30px] object-cover"
+      />
 
-
-
-      </div>
-      <div className="flex flex-col md:flex-row gap-10 justify-between z-10 relative">
-        <div className="w-full md:w-3/5 relative hidden md:block">
-          <Image
-            src="/about-us-image-2.webp"
-            alt="about us"
-            width={600}
-            height={400}
-            className="w-full h-full rounded-[30px] object-cover"
-          />
-
-          {/* Feature cards overlay */}
-          <div className="bg-white flex items-center px-5 justify-between gap-1 flex-row w-80 h-24 absolute -bottom-10 left-16 rounded-[10px] shadow-lg">
-            <div className="group flex flex-col gap-1 items-center text-center cursor-pointer">
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-full">
-                <div className="absolute inset-0 bg-orange-500 opacity-30 blur-lg rounded-full scale-0 transition-all duration-300 group-hover:scale-125"></div>
-                <Image
-                  src="/icon-smile.webp"
-                  alt="satisfied clients icon"
-                  width={32}
-                  height={32}
-                  className="relative z-10 transition-all duration-300 group-hover:scale-125"
-                />
-              </div>
-              <p className="text-[8.5px] leading-[10px] font-karla transition-all duration-300 group-hover:text-orange-500">
-                Satisfied <br /> Clients
-              </p>
+      {/* Feature Cards */}
+      <div className="bg-white flex items-center px-2 sm:px-5 justify-between gap-1 flex-wrap sm:flex-nowrap w-full sm:w-80 h-auto sm:h-24 absolute -bottom-10 left-0 sm:left-16 rounded-[10px] shadow-lg">
+        {/* Cards */}
+        {[
+          { img: "/icon-smile.webp", text: "Satisfied<br />Clients", color: "orange-500" },
+          { img: "/icon-setting.png", text: "Industry&apos;s<br />best Skillset", color: "ranav-dark-teal" },
+          { img: "/icon-timeline.webp", text: "Timeless<br />Experience", color: "orange-500" },
+          { img: "/icon-code.png", text: "Best<br />Developers", color: "ranav-dark-teal" },
+        ].map((item, idx) => (
+          <div key={idx} className="group flex flex-col gap-1 items-center text-center cursor-pointer w-1/4 sm:w-auto">
+            <div className="relative w-8 h-8 flex items-center justify-center rounded-full">
+              <div className={`absolute inset-0 bg-${item.color} opacity-30 blur-lg rounded-full scale-0 transition-all duration-300 group-hover:scale-125`} />
+              <Image
+                src={item.img}
+                alt="icon"
+                width={32}
+                height={32}
+                className="relative z-10 transition-all duration-300 group-hover:scale-125"
+              />
             </div>
-
-            <div className="group flex flex-col gap-1 items-center text-center cursor-pointer">
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-full">
-                <div className="absolute inset-0 bg-ranav-dark-teal opacity-30 blur-lg rounded-full scale-0 transition-all duration-300 group-hover:scale-125"></div>
-                <Image
-                  src="/icon-setting.png"
-                  alt="industry skillset icon"
-                  width={32}
-                  height={32}
-                  className="relative z-10 transition-all duration-300 group-hover:scale-125"
-                />
-              </div>
-              <p className="text-[8.5px] leading-[10px] font-karla transition-all duration-300 group-hover:text-ranav-dark-teal">
-                Industry&apos;s <br />
-                best Skillset
-              </p>
-            </div>
-
-            <div className="group flex flex-col gap-1 items-center text-center cursor-pointer">
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-full">
-                <div className="absolute inset-0 bg-orange-500 opacity-30 blur-lg rounded-full scale-0 transition-all duration-300 group-hover:scale-125"></div>
-                <Image
-                  src="/icon-timeline.webp"
-                  alt="timeless experience icon"
-                  width={32}
-                  height={32}
-                  className="relative z-10 transition-all duration-300 group-hover:scale-125"
-                />
-              </div>
-              <p className="text-[8.5px] leading-[10px] font-karla transition-all duration-300 group-hover:text-orange-500">
-                Timeless <br />
-                Experience
-              </p>
-            </div>
-
-            <div className="group flex flex-col gap-1 items-center text-center cursor-pointer">
-              <div className="relative w-8 h-8 flex items-center justify-center rounded-full">
-                <div className="absolute inset-0 bg-ranav-dark-teal opacity-30 blur-lg rounded-full scale-0 transition-all duration-300 group-hover:scale-125"></div>
-                <Image
-                  src="/icon-code.png"
-                  alt="best developers icon"
-                  width={32}
-                  height={32}
-                  className="relative z-10 transition-all duration-300 group-hover:scale-125"
-                />
-              </div>
-              <p className="text-[8.5px] leading-[10px] font-karla transition-all duration-300 group-hover:text-ranav-dark-teal">
-                Best <br />
-                Developers
-              </p>
-            </div>
+            <p className={`text-[8.5px] leading-[10px] font-karla transition-all duration-300 group-hover:text-${item.color}`}>
+              <span dangerouslySetInnerHTML={{ __html: item.text }} />
+            </p>
           </div>
-        </div>
-
-        <div className="w-full md:w-2/5">
-          <p className="text-sm leading-6 md:leading-8 md:text-xl font-normal font-karla text-justify text-black">
-            At Ranav Technologies, we specialize in crafting innovative, custom tech solutions that empower businesses
-            to thrive in a digital-first world. With a focus on efficiency and growth, we deliver cutting-edge
-            technology designed to meet the unique challenges of modern enterprises.
-            <br />
-            <br />
-            Our team combines technical expertise with a deep understanding of business needs, ensuring that every
-            solution we create is reliable, scalable, and impactful. From startups to established corporations, we
-            partner with our clients to drive success through technology.
-          </p>
-        </div>
+        ))}
       </div>
+    </div>
+
+    {/* Text Section */}
+    <div className="w-full md:w-2/5">
+      <p className="text-sm sm:text-base md:text-xl leading-6 md:leading-8 font-normal font-karla text-justify text-black">
+        At Ranav Technologies, we specialize in crafting innovative, custom tech solutions that empower businesses
+        to thrive in a digital-first world. With a focus on efficiency and growth, we deliver cutting-edge
+        technology designed to meet the unique challenges of modern enterprises.
+        <br /><br />
+        Our team combines technical expertise with a deep understanding of business needs, ensuring that every
+        solution we create is reliable, scalable, and impactful. From startups to established corporations, we
+        partner with our clients to drive success through technology.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Background image */}
       {/* <Image
@@ -435,7 +393,7 @@ const settingss = {
 fill
          className="absolute top-0 right-0 w-full h-full "
       /> */}
-    </section>
+    {/* </section> */}
 
    
 
@@ -464,15 +422,15 @@ fill
         <div className="flex flex-col justify-center gap-3 items-center mb-5 md:mb-14 overflow-auto">
        
               <h2 className="text-[86px] leading-[104px] font-normal text-[#212121] font-archivo text-center">
-Our Services
-</h2>
+             Our Services
+          </h2>
           <p className="text-lg md:text-xl text-black font-karla py-2 md:py-5 font-normal">
             We deliver results. Our services are designed to simplify your
             business, improve efficiency, and keep you ahead
           </p>
         </div>
         
-<div className="mt-6 flex flex-col-reverse md:flex-row justify-between gap-6">
+    <div className="mt-6 flex flex-col-reverse md:flex-row justify-between gap-6">
   
   {/* Left Box */}
   <div className="w-full md:w-1/3 h-[502px] flex flex-col justify-center md:bg-white md:px-10 md:py-12 md:border border-[#00000033] rounded-[30px] overflow-hidden">
@@ -641,36 +599,37 @@ Our Services
         <BlogsSection />
       </section>
 
-   <section className="bg-white px-10 py-16 max-w-[1750px] mx-auto -mb-10">
-  <div className="bg-[#002138] rounded-4xl text-white py-16 px-6 flex justify-center items-center relative mx-10 my-10">
+  <section className="bg-white px-4 sm:px-6 md:px-10 py-16 max-w-[1750px] mx-auto -mb-10">
+  <div className="bg-[#002138] rounded-4xl text-white py-12 px-4 sm:px-6 lg:px-12 flex flex-col items-center md:flex-row justify-center relative mx-4 sm:mx-6 md:mx-10 my-10">
     
-    {/* Image Positioned Bottom Left */}
-   {/* <img
-  src="/Group 174.png"
-  alt="group 174"
-  className="absolute bottom-12 left-0 w-[250px] sm:w-[300px] lg:w-[390px] xl:w-[400px] z-0 opacity-80"
-/> */}
-
+    {/* Optional Bottom Left Image */}
+    {/*
+    <img
+      src="/Group 174.png"
+      alt="group 174"
+      className="absolute bottom-12 left-0 w-[250px] sm:w-[300px] lg:w-[390px] xl:w-[400px] z-0 opacity-80"
+    />
+    */}
 
     <div className="max-w-6xl w-full flex flex-col md:flex-row gap-10">
       
       {/* LEFT TEXT CONTENT */}
-  <div className="md:w-1/2 pr-4 my-auto">
-  <div className="text-[#F9F9F9] uppercase font-karla font-light text-[32px] sm:text-[44px] lg:text-[64px] leading-[1.1] space-y-2">
-    <h1>LOOKING</h1>
-    <h1>FOR A TECH</h1>
-    <h1>PARTNER?</h1>
-  </div>
+      <div className="md:w-1/2 pr-0 md:pr-4 my-auto text-center md:text-left">
+        <div className="text-[#F9F9F9] uppercase font-karla font-light text-[28px] sm:text-[36px] md:text-[44px] lg:text-[64px] leading-[1.1] space-y-2">
+          <h1>LOOKING</h1>
+          <h1>FOR A TECH</h1>
+          <h1>PARTNER?</h1>
+        </div>
 
-  <p className="mt-8 text-[13px] sm:text-[15px] lg:text-[28px] leading-[1.5] font-karla font-light text-[#F9F9F9] max-w-[453px]">
-    Get in touch with us today. Our team is ready to discuss how we can support your business with tailored solutions that meet your goals.
-  </p>
-</div>
+        <p className="mt-6 sm:mt-8 text-[13px] sm:text-[15px] md:text-[20px] lg:text-[28px] leading-[1.5] font-karla font-light text-[#F9F9F9] max-w-[453px] mx-auto md:mx-0">
+          Get in touch with us today. Our team is ready to discuss how we can support your business with tailored solutions that meet your goals.
+        </p>
+      </div>
 
       {/* RIGHT FORM */}
-      <form onSubmit={formik.handleSubmit} className="md:w-1/2 bg-[#f8f9f9] text-black p-8 rounded-3xl space-y-5 shadow-lg">
-        <div className="flex gap-4">
-          <div className="w-1/2">
+      <form onSubmit={formik.handleSubmit} className="md:w-1/2 w-full bg-[#f8f9f9] text-black p-6 sm:p-8 rounded-3xl space-y-5 shadow-lg">
+        <div className="flex flex-col sm:flex-row gap-4">
+          <div className="w-full sm:w-1/2">
             <label className="text-sm font-semibold text-[#007084] block mb-1">*First Name</label>
             <input
               type="text"
@@ -685,7 +644,7 @@ Our Services
             )}
           </div>
 
-          <div className="w-1/2">
+          <div className="w-full sm:w-1/2">
             <label className="text-sm font-semibold text-[#007084] block mb-1">*Last Name</label>
             <input
               type="text"
@@ -740,6 +699,7 @@ Our Services
     </div>
   </div>
 </section>
+
 
 
 

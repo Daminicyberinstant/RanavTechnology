@@ -143,7 +143,8 @@ const ContactForm = ({ requestQuote }) => {
       text-2xl md:text-3xl uppercase leading-none
       rounded-[100px] font-karla
       hover:brightness-110 transition
-      p-1 md:p-2 mt-4 w-full h-[93.04px]"
+      p-1 md:p-2 mt-4 w-full
+      h-[70px] md:h-[93.04px]"
   >
     Submit
   </button>
@@ -151,19 +152,22 @@ const ContactForm = ({ requestQuote }) => {
   {requestQuote && (
     <button
       type="submit"
-      className="px-[10px] py-[16px] gap-[10px]
+      className="px-[10px] py-[14px] md:py-[16px] gap-[10px]
       border-2 border-[#02717E] 
       rounded-[100px]
       text-[#02717E] bg-transparent
-      text-[32px] leading-[37px] font-karla font-normal
+      text-[28px] md:text-[32px] leading-[32px] md:leading-[37px] font-karla font-normal
       uppercase text-center
       hover:bg-[#02717E] hover:text-white transition
-      w-full h-[93.04px] mt-4"
+      w-full
+      h-[70px] md:h-[93.04px]
+      mt-4"
     >
       Request a quote
     </button>
   )}
 </div>
+
 
 
       <p className="mt-3 text-sm">{status}</p>

@@ -42,13 +42,13 @@ const sliderSettings = {
   infinite: true,
   speed: 8000,
   autoplay: true,
-  autoplaySpeed: 0, // keeps it seamless
+  autoplaySpeed: 0,
   cssEase: 'linear',
   slidesToShow: 2.3,
   slidesToScroll: 1,
   arrows: false,
   pauseOnHover: true,
-  rtl: false, // 👈 this ensures left-to-right scroll
+  rtl: false,
   centerMode: true,
   centerPadding: '0px',
   responsive: [
@@ -58,7 +58,7 @@ const sliderSettings = {
         slidesToShow: 1.5,
         centerMode: true,
         centerPadding: '0px',
-        rtl: false, // also set in breakpoints if needed
+        rtl: false,
       },
     },
     {
@@ -82,23 +82,17 @@ const sliderSettings = {
   ],
 };
 
-
-
 const BlogsSection = () => {
   return (
-    <section className="bg-white px-4 md:px-10 py-10 mx-w-[1900px]  mx-auto">
-      <h2 className="font-archivo font-normal text-[48px] sm:text-[72px] lg:text-[96px] leading-[104px] text-[#01263B] text-center mb-10">
+    <section className="bg-white px-4 md:px-10 py-10 max-w-[1900px] mx-auto w-full">
+      <h2 className="font-archivo font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B] text-center mb-10">
         Our Blogs
       </h2>
 
       <Slider {...sliderSettings}>
         {blogs.map((blog) => (
           <div key={blog.id}>
-            
-                   <div
-       
-        className="relative group w-[350px] sm:w-[550px] md:w-[650px] lg:w-[750px] h-[469px] rounded-[40px] overflow-hidden flex-shrink-0 px-1"
-      >
+            <div className="relative group w-[300px] sm:w-[500px] md:w-[650px] lg:w-[750px] h-[400px] sm:h-[469px] rounded-[30px] sm:rounded-[40px] overflow-hidden flex-shrink-0 px-1">
               {/* Background image */}
               <div
                 className="absolute inset-0 bg-cover bg-center"
@@ -111,9 +105,9 @@ const BlogsSection = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/90"></div>
 
               {/* Content */}
-              <div className="relative z-10 flex flex-col justify-between h-full px-5 py-6">
+              <div className="relative z-10 flex flex-col justify-between h-full px-4 sm:px-5 py-6">
                 {/* Arrow Button */}
-                <div className="self-end bg-white group-hover:bg-[#F69331] p-3 w-12 h-12 flex justify-center items-center rounded-full transition-colors duration-300">
+                <div className="self-end bg-white group-hover:bg-[#F69331] p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center rounded-full transition-colors duration-300">
                   <Link href={`/blog/${blog.id}`}>
                     <Image
                       src="/arrow-right-yellow.png"
@@ -128,19 +122,19 @@ const BlogsSection = () => {
                 {/* Title and Metadata */}
                 <div>
                   <Link href={`/blog/${blog.id}`}>
-                    <h4 className="font-plusjakarta font-bold text-[20px] sm:text-[24px] leading-tight text-[#212121] line-clamp-2">
+                    <h4 className="font-plusjakarta font-bold text-[18px] sm:text-[22px] md:text-[24px] leading-tight text-[#212121] line-clamp-2">
                       {blog.title}
                     </h4>
                   </Link>
                   <div className="flex justify-between items-center mt-3 flex-wrap">
-                    <p className="font-plusjakarta font-medium text-[14px] sm:text-[15px] text-[#212121]">
+                    <p className="font-plusjakarta font-medium text-[13px] sm:text-[15px] text-[#212121]">
                       {blog.date}
                     </p>
                     <div className="flex gap-2 mt-2 sm:mt-0">
                       {blog.tags.map((tag, i) => (
                         <span
                           key={i}
-                          className="bg-[#225A77] text-white text-xs px-3 py-1 rounded-full"
+                          className="bg-[#225A77] text-white text-[10px] sm:text-xs px-2 py-1 sm:px-3 sm:py-1 rounded-full"
                         >
                           {tag}
                         </span>
