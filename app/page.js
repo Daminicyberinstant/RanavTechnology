@@ -596,6 +596,9 @@ fill
       <section> <TestimonialsSection /></section>
 
       <section className="-mt-16">
+           <h2 className="font-archivo font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B] text-center mb-10">
+        Our Blogs
+      </h2>
         <BlogsSection />
       </section>
 

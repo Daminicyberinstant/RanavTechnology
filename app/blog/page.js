@@ -347,9 +347,9 @@ useEffect(() => {
       {/* Auto-scrolling Row  */}
 <section className="bg-white px-4 md:px-10 py-10 max-w-[1600px] mx-auto">
 
-      <h2 className="font-archivo font-normal text-[48px] sm:text-[72px] lg:text-[96px] leading-[104px] text-[#01263B] text-center mb-10">
+      {/* <h2 className="font-archivo font-normal text-[48px] sm:text-[72px] lg:text-[96px] leading-[104px] text-[#01263B] text-center mb-10">
         Our Blogs
-      </h2>
+      </h2> */}
 
       <Slider {...sliderSettings}>
         {blogs.map((blog) => (

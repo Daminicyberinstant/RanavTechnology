@@ -11,31 +11,35 @@ const blogs = [
   {
     id: 'future-of-ai',
     title: 'The Future of AI in Business',
-    date: '2025-03-22',
-    tags: ['Machine Learning'],
+    date: '22 July 2025',
+    tags: ['Tech'],
+    creator: 'Tom',
     image: '/future-of-AI-feature1.jpg',
   },
   {
     id: 'unlocking-business-potential-with-tailored-software-solutions',
     title: 'Unlocking Business Potential with Tailored Software Solutions',
-    date: '2025-03-22',
-    tags: ['Machine Learning'],
+    date: '21 May 2025',
+    tags: ['Design'],
+    creator: 'Jane',
     image: '/unlocking-business-feature.jpg',
   },
   {
     id: 'choosing-the-right-technology-stack-for-your-business-website',
     title: 'Choosing the Right Technology Stack for Your Business Website',
-    date: '2025-03-22',
-    tags: ['Machine Learning'],
+    date: '20 May 2025',
+    tags: ['Tech'],
+    creator: 'Tom',
     image: '/right-technology-stack-feature.jpg',
   },
   {
     id: 'digital-transformation-for-startups-where-to-begin',
     title: 'Digital Transformation for Startups: Where to Begin?',
-    date: '2025-03-22',
-    tags: ['Machine Learning'],
+    date: '19 May 2025',
+    tags: ['Design'],
+    creator: 'Jane',
     image: '/digital-transformation-feature.webp',
-  },
+  }
 ];
 
 const sliderSettings = {
@@ -85,9 +89,9 @@ const sliderSettings = {
 const BlogsSection = () => {
   return (
     <section className="bg-white px-4 md:px-10 py-10 max-w-[1900px] mx-auto w-full">
-      <h2 className="font-archivo font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B] text-center mb-10">
+      {/* <h2 className="font-archivo font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B] text-center mb-10">
         Our Blogs
-      </h2>
+      </h2> */}
 
       <Slider {...sliderSettings}>
         {blogs.map((blog) => (

@@ -1,5 +1,5 @@
 "use client";
-import BlogsSection from "@/components/BlogsSection";
+import BlogsSection from "@/components/BlogsSectionForSubBlogs";
 import Image from "next/image";
 export default function CustomSoftwareSolutionsPage() {
   return (
@@ -127,7 +127,14 @@ export default function CustomSoftwareSolutionsPage() {
     </p>
   </div>
 </section>
-<section >
+<section  className="bg-white px-10 py-16 max-w-[1700px] mx-auto space-y-[100px]">
+
+  <section  className="bg-white px-10 py-16 max-w-[1600px] mx-auto space-y-[100px] -mt-[100px] -mb-[100px]">
+     <h2 className="font-archivo font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B]  mb-10">
+        Read more in category
+      </h2>
+</section>
+  
         <BlogsSection />
       </section>
     </main>
