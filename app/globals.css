@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.para{
+  @apply   text-black  text-[18px] md:text-[17px] leading-[30px] md:leading-[35px]
+}
+
+.heading{
+  @apply font-normal text-[36px] sm:text-[48px] md:text-[72px] lg:text-[96px] leading-tight text-[#01263B] text-center mb-10 md:mb-10
+}
+
+
+.wrapper{
+  @apply w-[99%] mx-auto
+}
+.wrapper2{
+  @apply w-[98%] mx-auto
+}
+
+.wrapper3{
+  @apply w-[95%] mx-auto
+}
+
+body{
+  font-family: 'Archivo', sans-serif !important;
+}
+
+nav{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-karla), sans-serif;
+}
+
+
+.text-gradient {
+  background-image: linear-gradient(269.37deg, #dd8024 40.44%, #ffe5cb 72.41%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+@layer utilities {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 5s linear infinite;
+  }
+}
+
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-reverse {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 25s linear infinite;
+  }
+
+  .animate-marquee-reverse {
+    animation: marquee-reverse 25s linear infinite;
+  }
+}
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md bg-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500;
+  }
+
+  .textarea {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md bg-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 resize-y;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-gray-800 mb-1;
+  }
+
+  .upload-box {
+    @apply border-2 border-dashed rounded-md p-6;
+  }
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.vertical-scroll-snap {
+  overflow-y: scroll;
+  /* scroll-snap-type: y mandatory; */
+  scroll-snap-type: y proximity;
+  max-height: 80vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.vertical-scroll-snap::-webkit-scrollbar {
+  display: none;
+}
+.stacking-slide {
+  scroll-snap-align: start;
+  height: 80vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.container {
+    width: 100%;
+    @media (width >= 40rem /* 640px */) {
+        max-width: 40rem /* 640px */;
+    }
+    @media (width >= 48rem /* 768px */) {
+        max-width: 48rem /* 768px */;
+    }
+    @media (width >= 64rem /* 1024px */) {
+        max-width: 64rem /* 1024px */;
+    }
+    @media (width >= 80rem /* 1280px */) {
+        max-width: 80rem /* 1280px */;
+    }
+    @media (width >= 96rem /* 1536px */) {
+        max-width: 96rem /* 1536px */;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  .vertical-scroll-snap {
+    max-height: 50vh;
+  }
+  .stacking-slide {
+    height: 50vh;
+  }
+}
+.slick-dots {
+  list-style-type: none;
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.slick-dots li button {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  font-size: 12px;
+  color: #666;
+  border: none;
+  background: #f0f0f0;
+}
+
+.slick-dots li button:before {
+  content: none;
+}
+
+.slick-dots li.slick-active button {
+  background: #ccc;
+}
+.privacy-terms ul {
+  padding-left: 25px;
+  margin: 16px auto;
+}
+.list-items li {
+  list-style: disc;
+}
+
+.privacy-terms ul {
+  padding-left: 25px;
+  margin: 16px auto;
+}
